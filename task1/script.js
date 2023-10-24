@@ -1,18 +1,11 @@
-let numberOfFillms = prompt("How many films do you watching?", '');
+const storeName = "Shop1";
 
-const personalMovieDB = {
-    count: numberOfFillms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-}
-
-const a = prompt("what movie do you watching last?", ''),
-        b = prompt("how do you rate it?", ''),
-        c = prompt("what movie do you watching last?", ''),
-        d = prompt("how do you rate it?", '');
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-console.log(personalMovieDB);
+const storeDescription = {
+    budget: 10000,
+    employees: ["John", "Marry", "Harry"],
+    products: {
+        apple: 3,
+        orange: 5,
+    },
+    open: true,
+};
