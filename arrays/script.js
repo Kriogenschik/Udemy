@@ -17,3 +17,4 @@ function compare(a, b) {
 }
 
 arr.sort(compare);
+
